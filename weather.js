@@ -18,6 +18,10 @@ function init(){
         }
         catch(err){
             title.innerHTML = "No Matching Results Found";
+            place.innerHTML = "";
+            feel.innerHTML = "";
+            temp.innerHTML = "";
+            
         }   
     }
 
